@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0090A9547D711FE4DBEF04635342B777 /* JVTActionSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30838455B91ED825642B60C2686E5373 /* JVTActionSheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011837D0ACC1D1A04369DD539536B9D0 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 009ADF1F98DB3A661BF2D0E3E35D8ABD /* UIImage+FixOrientation.m */; };
+		0BF4C57276FF5AA89D5DC8E75DC3FF83 /* JVTImagePreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 200A82F6EFDE856EBDEF621DCC21E18F /* JVTImagePreviewVC.m */; };
+		0C00EB68A40790EA9F40E87502793CF4 /* JVTTransitionOpenImageFullScreenPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3402D1DD90EC65A68011CF5D780B5692 /* JVTTransitionOpenImageFullScreenPresentation.m */; };
+		103385F359FC70CDB61D2DD31D33EA5B /* JVTRecentImagesVideoCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF8948079CE53E88A0DC38099AE2396 /* JVTRecentImagesVideoCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13280876E704326BAFDF2B14D05D7066 /* JVTTransitionOpenImageFullScreenPresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AB33C75F09FADC6421BDB13C58A446 /* JVTTransitionOpenImageFullScreenPresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16ACA26182C504D529EE7FB38A9A309E /* JVTImageFilePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6E44B60A4CA23ACBAD874E1CDA1F84 /* JVTImageFilePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2072D39DE9E6330CD4BAB4BB95689949 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 4495AFC01CDECC607D8850762EA623C3 /* LLSimpleCamera.m */; };
+		237091A2437808DD5315B40890FA13F6 /* JVTImageFilePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C911C7F0795088245532EEBA320DF /* JVTImageFilePicker.m */; };
+		2758728FBC89C9FA131DEB6FC524D8A9 /* JVTRecetImagesCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = F763AB48E66F5C20B593AC831F548C28 /* JVTRecetImagesCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29BCE3D68849B7D0E835FA8AA3D3A1AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		2BF8FB41E916A406BA337D26EF407CC9 /* JVTRecentImagesProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 576F3AD62ECDE4F0C4DAFD54AA42DE77 /* JVTRecentImagesProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		315E9E2FD13157E22D8A1B820517A44C /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 1988B4D2F9DDAFEF2218F4A73B453092 /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4069F6295B2585278F8F4A26414C3C91 /* JVTTransitionOpenViewFullScreenPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A3AD3C905861DB2883BC421D352F3 /* JVTTransitionOpenViewFullScreenPresentation.m */; };
+		41A95384A1FCCE27586575DE3FACB620 /* JVTActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE14E5C75FDF4788B033325C2D33A26B /* JVTActionSheetView.m */; };
+		454746470059E7733F0070CC8AC5F6A5 /* JVTCameraViewPreviewVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 214E01B52E9A3BCFF2785018F2437F11 /* JVTCameraViewPreviewVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47887F5721DDCFDFF979F5D1AD1D25D1 /* JVTRecentImagesProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 30655EB5BECCBF77DBDA58F800ECF711 /* JVTRecentImagesProvider.m */; };
+		48C7A54D96A2A6297C18EF33F5212887 /* JVTTransitionOpenImageFullScreenDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 5408D72D5DDC256DD6252973976E4BFB /* JVTTransitionOpenImageFullScreenDismiss.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F45112A1A151615AE918C90AC0A110 /* JVTTransitionOpenImageFullScreenDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 953FED73CD95B92ED8F3B40BE952A669 /* JVTTransitionOpenImageFullScreenDelegate.m */; };
+		615197D1F7E31AFBA20FD766A09CEC08 /* JVTRecetImagesCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A151A008BAB197B53831E90ADE74A /* JVTRecetImagesCollection.m */; };
+		686385F48D92AF213ACAC1D9B439CDFC /* JVTRecentImagesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E13603B5A2433087C32A2CFBD60BF /* JVTRecentImagesCollectionViewCell.m */; };
+		71930B86EA4CBAFEEFC3B67A45BAB31D /* ImageFilesPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D20C604EDB5BD139AD33AA6951E971 /* ImageFilesPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79DCF63EF98995F93E9F3CBAE2BC276A /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F63AF7A005588CD8CBD449098BFCD20 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6DEB4F080B53D668509F65D53CB23C /* JVTRecentImagesVideoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E651077D2252AC3AA583CE41E405667F /* JVTRecentImagesVideoCollectionViewCell.m */; };
+		8CBA93B20DEFEB2C03B70FAD07958C71 /* JVTTransitionOpenImageFullScreenDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69F86DD8FB18CB5D0AF5E9B38FF297 /* JVTTransitionOpenImageFullScreenDismiss.m */; };
+		8F62444DE36EC712218972CB56748F4D /* Pods-VizTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 501478BB66C9C545A337F3AF877B45CC /* Pods-VizTest-dummy.m */; };
+		9020D2A07F74097B4BA04DBFA584861D /* JVTTransitionOpenViewFullScreenDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6419E6ED75D26F2E8DA4339875EF94 /* JVTTransitionOpenViewFullScreenDelegate.m */; };
+		9926A1B40A6C4B1E13F8309C2AC33CFF /* UIImagePickerController+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 3308A9BBBB183B77B48AA5B332E26462 /* UIImagePickerController+Block.m */; };
+		9B3CA131C29FA634534EB90C6587DE26 /* UIBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7B9E60942C219CBD4112C97D38873 /* UIBlockButton.m */; };
+		A42B36EE5F4B5C3814C5B827077470AD /* JVTActionSheetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0F76A2B2C5BA4C682CB9A4AD4D9770 /* JVTActionSheetAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC71EAD326A650DEA3A953AF0401EE9F /* JVTCameraAccesebility.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F1887D9B8FACB94F193460F796C3AE /* JVTCameraAccesebility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5AA76F98F7D0DD5E3DC785A65838625 /* JVTWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 25400869F310CE22D430A3761487B290 /* JVTWorker.m */; };
+		BD0E04F0D54E8197152C3040DD192779 /* JVTWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C882EC40750F9984BD4BC2491B398E /* JVTWorker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFC6D51AB1340FEAE773379F35A7BBC4 /* JVTImagePreviewVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B334DFF9899DE820DE21EC0FC4981D70 /* JVTImagePreviewVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2FE1DF0348C45F202BBC174B7BBBCA5 /* ImageFilesPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA34F2721DEE5BF492DA885A40DEC5 /* ImageFilesPicker-dummy.m */; };
+		C6CAFDAF0B6C171F04A98147965A69FE /* JVTCameraViewPreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E6C7CCD74762C1ACF4BE29B1F0CB1 /* JVTCameraViewPreviewVC.m */; };
+		C972B542322BDA0CBA8738D5E340F207 /* JVTActionSheetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E65BA37A709A8A47FDA33D6CE50713D /* JVTActionSheetAction.m */; };
+		CBE9D634123B9B83AAA1C90327EE8043 /* background.jpg in Sources */ = {isa = PBXBuildFile; fileRef = BFF393A576A541371712FB6B72009893 /* background.jpg */; };
+		D5501EA80FE480392E609ABFAAC10AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D650A2F0ED4F0F89E354BE513C548960 /* UIImagePickerController+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = A1727013BE1A1D663267BE62E502653E /* UIImagePickerController+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68D1840B95C74E3BA98ED227364ACE9 /* JVTCameraAccesebility.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E5D71D6447487E44C67FFBC6C55DF7 /* JVTCameraAccesebility.m */; };
+		D9BF305F99694A989DDDB80DDB4FED4B /* Pods-VizTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA07C5857C44B78F18AD40FF7BC1DBD3 /* Pods-VizTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB8FD22C43F4E30B022E107F3E0C11FE /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 5946B419C8062688715707B99C528CF1 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF6D0AF086268B33EF2942BDA1F5B99E /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 34643ABD2466CF02F83E8403401EF428 /* EXTScope.m */; };
+		E14A678D490C94E267969CF628686BAC /* JVTTransitionOpenViewFullScreenDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = B396F63BA8568DE3E1BADADE6077C1C6 /* JVTTransitionOpenViewFullScreenDismiss.m */; };
+		EA16B865C29FB9DB384CBC8C4B08DAD6 /* JVTTransitionOpenImageFullScreenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A51CDE04BC19D741C1F7EC4B836376 /* JVTTransitionOpenImageFullScreenDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6BA9C84782EE96D01C60D91474DC93 /* UIBlockButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2452D3F205540158D5F43AF78AF89794 /* UIBlockButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1497DF6A76FBF3A506703A6AB6C771E /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 234999E6934ED4A78CC8E2AC5B012556 /* UIImage+FixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251725F7B2F3378ED85AE1DE8846A68 /* JVTTransitionOpenViewFullScreenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BDC3036FFB6F2837E41EA9DE2DAFFC /* JVTTransitionOpenViewFullScreenDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F57AB4E275233C430EBC28653B48BB5C /* JVTTransitionOpenViewFullScreenDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = DE82E9D74073307B8893D6B160371A24 /* JVTTransitionOpenViewFullScreenDismiss.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB66060C581FF0EB474DEF87B60599CD /* JVTRecentImagesCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF1EA3848C4457EC392ECF49E2BDBB6 /* JVTRecentImagesCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB817F31D09DB94AAC15D1C4201661E /* JVTTransitionOpenViewFullScreenPresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 51092E0C37C64BA3D02F8EF01D8C1083 /* JVTTransitionOpenViewFullScreenPresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEC3904E43A179EA51BCAC3598204110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		572DA9553454FCB46248670D249D435A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B418B875016426329CD3DBFD922B18;
+			remoteInfo = ImageFilesPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009ADF1F98DB3A661BF2D0E3E35D8ABD /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FixOrientation.m"; path = "Vendor/UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		0AAA34F2721DEE5BF492DA885A40DEC5 /* ImageFilesPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageFilesPicker-dummy.m"; sourceTree = "<group>"; };
+		0D3A3AD3C905861DB2883BC421D352F3 /* JVTTransitionOpenViewFullScreenPresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTTransitionOpenViewFullScreenPresentation.m; path = ImagePicker/Resource/JVTTransitionOpenViewFullScreenPresentation.m; sourceTree = "<group>"; };
+		0E69F86DD8FB18CB5D0AF5E9B38FF297 /* JVTTransitionOpenImageFullScreenDismiss.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTTransitionOpenImageFullScreenDismiss.m; path = ImagePicker/Resource/JVTTransitionOpenImageFullScreenDismiss.m; sourceTree = "<group>"; };
+		1435E99660A19672D3987B62044BA165 /* ImageFilesPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageFilesPicker-prefix.pch"; sourceTree = "<group>"; };
+		1988B4D2F9DDAFEF2218F4A73B453092 /* LLSimpleCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLSimpleCamera.h; path = Vendor/LLSimpleCamera.h; sourceTree = "<group>"; };
+		1E37D94FCF34F240AB7ACD465EC5C8AD /* ImageFilesPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageFilesPicker.modulemap; sourceTree = "<group>"; };
+		200A82F6EFDE856EBDEF621DCC21E18F /* JVTImagePreviewVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTImagePreviewVC.m; path = ImagePicker/Resource/JVTImagePreviewVC.m; sourceTree = "<group>"; };
+		214E01B52E9A3BCFF2785018F2437F11 /* JVTCameraViewPreviewVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTCameraViewPreviewVC.h; path = ImagePicker/Resource/JVTCameraViewPreviewVC.h; sourceTree = "<group>"; };
+		234999E6934ED4A78CC8E2AC5B012556 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FixOrientation.h"; path = "Vendor/UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		2452D3F205540158D5F43AF78AF89794 /* UIBlockButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIBlockButton.h; path = Vendor/UIBlockButton.h; sourceTree = "<group>"; };
+		25400869F310CE22D430A3761487B290 /* JVTWorker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTWorker.m; path = ImagePicker/Resource/JVTWorker.m; sourceTree = "<group>"; };
+		2D1E6C7CCD74762C1ACF4BE29B1F0CB1 /* JVTCameraViewPreviewVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTCameraViewPreviewVC.m; path = ImagePicker/Resource/JVTCameraViewPreviewVC.m; sourceTree = "<group>"; };
+		2EF1EA3848C4457EC392ECF49E2BDBB6 /* JVTRecentImagesCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTRecentImagesCollectionViewCell.h; path = ImagePicker/Resource/JVTRecentImagesCollectionViewCell.h; sourceTree = "<group>"; };
+		30655EB5BECCBF77DBDA58F800ECF711 /* JVTRecentImagesProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTRecentImagesProvider.m; path = ImagePicker/Resource/JVTRecentImagesProvider.m; sourceTree = "<group>"; };
+		30838455B91ED825642B60C2686E5373 /* JVTActionSheetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTActionSheetView.h; path = ImagePicker/Resource/JVTActionSheetView.h; sourceTree = "<group>"; };
+		3308A9BBBB183B77B48AA5B332E26462 /* UIImagePickerController+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImagePickerController+Block.m"; path = "Vendor/UIImagePickerController+Block.m"; sourceTree = "<group>"; };
+		3402D1DD90EC65A68011CF5D780B5692 /* JVTTransitionOpenImageFullScreenPresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTTransitionOpenImageFullScreenPresentation.m; path = ImagePicker/Resource/JVTTransitionOpenImageFullScreenPresentation.m; sourceTree = "<group>"; };
+		34643ABD2466CF02F83E8403401EF428 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Vendor/EXTScope.m; sourceTree = "<group>"; };
+		3E6419E6ED75D26F2E8DA4339875EF94 /* JVTTransitionOpenViewFullScreenDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTTransitionOpenViewFullScreenDelegate.m; path = ImagePicker/Resource/JVTTransitionOpenViewFullScreenDelegate.m; sourceTree = "<group>"; };
+		4495AFC01CDECC607D8850762EA623C3 /* LLSimpleCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLSimpleCamera.m; path = Vendor/LLSimpleCamera.m; sourceTree = "<group>"; };
+		4A6E44B60A4CA23ACBAD874E1CDA1F84 /* JVTImageFilePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTImageFilePicker.h; path = ImagePicker/Resource/JVTImageFilePicker.h; sourceTree = "<group>"; };
+		501478BB66C9C545A337F3AF877B45CC /* Pods-VizTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VizTest-dummy.m"; sourceTree = "<group>"; };
+		51092E0C37C64BA3D02F8EF01D8C1083 /* JVTTransitionOpenViewFullScreenPresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTTransitionOpenViewFullScreenPresentation.h; path = ImagePicker/Resource/JVTTransitionOpenViewFullScreenPresentation.h; sourceTree = "<group>"; };
+		5408D72D5DDC256DD6252973976E4BFB /* JVTTransitionOpenImageFullScreenDismiss.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTTransitionOpenImageFullScreenDismiss.h; path = ImagePicker/Resource/JVTTransitionOpenImageFullScreenDismiss.h; sourceTree = "<group>"; };
+		576F3AD62ECDE4F0C4DAFD54AA42DE77 /* JVTRecentImagesProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTRecentImagesProvider.h; path = ImagePicker/Resource/JVTRecentImagesProvider.h; sourceTree = "<group>"; };
+		5946B419C8062688715707B99C528CF1 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Vendor/EXTScope.h; sourceTree = "<group>"; };
+		5A9A151A008BAB197B53831E90ADE74A /* JVTRecetImagesCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTRecetImagesCollection.m; path = ImagePicker/Resource/JVTRecetImagesCollection.m; sourceTree = "<group>"; };
+		5BA7B9E60942C219CBD4112C97D38873 /* UIBlockButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIBlockButton.m; path = Vendor/UIBlockButton.m; sourceTree = "<group>"; };
+		5F63AF7A005588CD8CBD449098BFCD20 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Vendor/metamacros.h; sourceTree = "<group>"; };
+		6E65BA37A709A8A47FDA33D6CE50713D /* JVTActionSheetAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTActionSheetAction.m; path = ImagePicker/Resource/JVTActionSheetAction.m; sourceTree = "<group>"; };
+		7DDB1B497E83ABC6BB356C14AB7A8B3A /* Pods-VizTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VizTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8347259B81315A57D3C6A8ECBA3CDBF3 /* ImageFilesPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageFilesPicker.framework; path = ImageFilesPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AB33C75F09FADC6421BDB13C58A446 /* JVTTransitionOpenImageFullScreenPresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTTransitionOpenImageFullScreenPresentation.h; path = ImagePicker/Resource/JVTTransitionOpenImageFullScreenPresentation.h; sourceTree = "<group>"; };
+		8A0F76A2B2C5BA4C682CB9A4AD4D9770 /* JVTActionSheetAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTActionSheetAction.h; path = ImagePicker/Resource/JVTActionSheetAction.h; sourceTree = "<group>"; };
+		8CBBD5ABF6C06A6F7BBC0B1BD991F821 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0E13603B5A2433087C32A2CFBD60BF /* JVTRecentImagesCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTRecentImagesCollectionViewCell.m; path = ImagePicker/Resource/JVTRecentImagesCollectionViewCell.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953FED73CD95B92ED8F3B40BE952A669 /* JVTTransitionOpenImageFullScreenDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTTransitionOpenImageFullScreenDelegate.m; path = ImagePicker/Resource/JVTTransitionOpenImageFullScreenDelegate.m; sourceTree = "<group>"; };
+		9D3C911C7F0795088245532EEBA320DF /* JVTImageFilePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTImageFilePicker.m; path = ImagePicker/Resource/JVTImageFilePicker.m; sourceTree = "<group>"; };
+		A1727013BE1A1D663267BE62E502653E /* UIImagePickerController+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImagePickerController+Block.h"; path = "Vendor/UIImagePickerController+Block.h"; sourceTree = "<group>"; };
+		A2E91F20CEF408181CB58B3E784938C8 /* ImageFilesPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageFilesPicker.xcconfig; sourceTree = "<group>"; };
+		A48B158FE1191B552D2A708EAF14E6D7 /* Pods-VizTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VizTest-frameworks.sh"; sourceTree = "<group>"; };
+		A6BDC3036FFB6F2837E41EA9DE2DAFFC /* JVTTransitionOpenViewFullScreenDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTTransitionOpenViewFullScreenDelegate.h; path = ImagePicker/Resource/JVTTransitionOpenViewFullScreenDelegate.h; sourceTree = "<group>"; };
+		ABECA647597D0B7C3F82C6BAC4405F70 /* Pods_VizTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VizTest.framework; path = "Pods-VizTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B334DFF9899DE820DE21EC0FC4981D70 /* JVTImagePreviewVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTImagePreviewVC.h; path = ImagePicker/Resource/JVTImagePreviewVC.h; sourceTree = "<group>"; };
+		B396F63BA8568DE3E1BADADE6077C1C6 /* JVTTransitionOpenViewFullScreenDismiss.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTTransitionOpenViewFullScreenDismiss.m; path = ImagePicker/Resource/JVTTransitionOpenViewFullScreenDismiss.m; sourceTree = "<group>"; };
+		B4A51CDE04BC19D741C1F7EC4B836376 /* JVTTransitionOpenImageFullScreenDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTTransitionOpenImageFullScreenDelegate.h; path = ImagePicker/Resource/JVTTransitionOpenImageFullScreenDelegate.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B8244218FAE46DD0304DF7FF7F1B9CBF /* Pods-VizTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VizTest.release.xcconfig"; sourceTree = "<group>"; };
+		BFF393A576A541371712FB6B72009893 /* background.jpg */ = {isa = PBXFileReference; includeInIndex = 1; name = background.jpg; path = Resource/background.jpg; sourceTree = "<group>"; };
+		C10BCF3BD814B607B0B946D1CCADA416 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26609A6DEA4DA302D3161D832DEBFE5 /* Pods-VizTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VizTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F1887D9B8FACB94F193460F796C3AE /* JVTCameraAccesebility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTCameraAccesebility.h; path = ImagePicker/Resource/JVTCameraAccesebility.h; sourceTree = "<group>"; };
+		D5C882EC40750F9984BD4BC2491B398E /* JVTWorker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTWorker.h; path = ImagePicker/Resource/JVTWorker.h; sourceTree = "<group>"; };
+		D7D20C604EDB5BD139AD33AA6951E971 /* ImageFilesPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageFilesPicker-umbrella.h"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA07C5857C44B78F18AD40FF7BC1DBD3 /* Pods-VizTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VizTest-umbrella.h"; sourceTree = "<group>"; };
+		DAF8948079CE53E88A0DC38099AE2396 /* JVTRecentImagesVideoCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTRecentImagesVideoCollectionViewCell.h; path = ImagePicker/Resource/JVTRecentImagesVideoCollectionViewCell.h; sourceTree = "<group>"; };
+		DE82E9D74073307B8893D6B160371A24 /* JVTTransitionOpenViewFullScreenDismiss.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTTransitionOpenViewFullScreenDismiss.h; path = ImagePicker/Resource/JVTTransitionOpenViewFullScreenDismiss.h; sourceTree = "<group>"; };
+		E3E5D71D6447487E44C67FFBC6C55DF7 /* JVTCameraAccesebility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTCameraAccesebility.m; path = ImagePicker/Resource/JVTCameraAccesebility.m; sourceTree = "<group>"; };
+		E651077D2252AC3AA583CE41E405667F /* JVTRecentImagesVideoCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTRecentImagesVideoCollectionViewCell.m; path = ImagePicker/Resource/JVTRecentImagesVideoCollectionViewCell.m; sourceTree = "<group>"; };
+		EFED2B4FA249AC9183FD19E51BCAE64A /* Pods-VizTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VizTest-resources.sh"; sourceTree = "<group>"; };
+		F66D7DAFBD1B2C8B019E6F66D003BA47 /* Pods-VizTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VizTest.modulemap"; sourceTree = "<group>"; };
+		F763AB48E66F5C20B593AC831F548C28 /* JVTRecetImagesCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVTRecetImagesCollection.h; path = ImagePicker/Resource/JVTRecetImagesCollection.h; sourceTree = "<group>"; };
+		F8DE98A2442CA05E7E974CF35B024EF6 /* Pods-VizTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VizTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE14E5C75FDF4788B033325C2D33A26B /* JVTActionSheetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVTActionSheetView.m; path = ImagePicker/Resource/JVTActionSheetView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		674E740B0B295E4CDE8A04CA0C710882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3904E43A179EA51BCAC3598204110 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFC3457295C9B0290AFFC162EBB8759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5501EA80FE480392E609ABFAAC10AAB /* Foundation.framework in Frameworks */,
+				29BCE3D68849B7D0E835FA8AA3D3A1AB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24963BE842962D1BD9C45B509E5441EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E208A9E9EB2538FF220086A391323C0D /* Pods-VizTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31445EB2E1D6CCE58B5183C23A61A199 /* ImageFilesPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BFF393A576A541371712FB6B72009893 /* background.jpg */,
+				5946B419C8062688715707B99C528CF1 /* EXTScope.h */,
+				34643ABD2466CF02F83E8403401EF428 /* EXTScope.m */,
+				8A0F76A2B2C5BA4C682CB9A4AD4D9770 /* JVTActionSheetAction.h */,
+				6E65BA37A709A8A47FDA33D6CE50713D /* JVTActionSheetAction.m */,
+				30838455B91ED825642B60C2686E5373 /* JVTActionSheetView.h */,
+				FE14E5C75FDF4788B033325C2D33A26B /* JVTActionSheetView.m */,
+				C2F1887D9B8FACB94F193460F796C3AE /* JVTCameraAccesebility.h */,
+				E3E5D71D6447487E44C67FFBC6C55DF7 /* JVTCameraAccesebility.m */,
+				214E01B52E9A3BCFF2785018F2437F11 /* JVTCameraViewPreviewVC.h */,
+				2D1E6C7CCD74762C1ACF4BE29B1F0CB1 /* JVTCameraViewPreviewVC.m */,
+				4A6E44B60A4CA23ACBAD874E1CDA1F84 /* JVTImageFilePicker.h */,
+				9D3C911C7F0795088245532EEBA320DF /* JVTImageFilePicker.m */,
+				B334DFF9899DE820DE21EC0FC4981D70 /* JVTImagePreviewVC.h */,
+				200A82F6EFDE856EBDEF621DCC21E18F /* JVTImagePreviewVC.m */,
+				2EF1EA3848C4457EC392ECF49E2BDBB6 /* JVTRecentImagesCollectionViewCell.h */,
+				8E0E13603B5A2433087C32A2CFBD60BF /* JVTRecentImagesCollectionViewCell.m */,
+				576F3AD62ECDE4F0C4DAFD54AA42DE77 /* JVTRecentImagesProvider.h */,
+				30655EB5BECCBF77DBDA58F800ECF711 /* JVTRecentImagesProvider.m */,
+				DAF8948079CE53E88A0DC38099AE2396 /* JVTRecentImagesVideoCollectionViewCell.h */,
+				E651077D2252AC3AA583CE41E405667F /* JVTRecentImagesVideoCollectionViewCell.m */,
+				F763AB48E66F5C20B593AC831F548C28 /* JVTRecetImagesCollection.h */,
+				5A9A151A008BAB197B53831E90ADE74A /* JVTRecetImagesCollection.m */,
+				B4A51CDE04BC19D741C1F7EC4B836376 /* JVTTransitionOpenImageFullScreenDelegate.h */,
+				953FED73CD95B92ED8F3B40BE952A669 /* JVTTransitionOpenImageFullScreenDelegate.m */,
+				5408D72D5DDC256DD6252973976E4BFB /* JVTTransitionOpenImageFullScreenDismiss.h */,
+				0E69F86DD8FB18CB5D0AF5E9B38FF297 /* JVTTransitionOpenImageFullScreenDismiss.m */,
+				84AB33C75F09FADC6421BDB13C58A446 /* JVTTransitionOpenImageFullScreenPresentation.h */,
+				3402D1DD90EC65A68011CF5D780B5692 /* JVTTransitionOpenImageFullScreenPresentation.m */,
+				A6BDC3036FFB6F2837E41EA9DE2DAFFC /* JVTTransitionOpenViewFullScreenDelegate.h */,
+				3E6419E6ED75D26F2E8DA4339875EF94 /* JVTTransitionOpenViewFullScreenDelegate.m */,
+				DE82E9D74073307B8893D6B160371A24 /* JVTTransitionOpenViewFullScreenDismiss.h */,
+				B396F63BA8568DE3E1BADADE6077C1C6 /* JVTTransitionOpenViewFullScreenDismiss.m */,
+				51092E0C37C64BA3D02F8EF01D8C1083 /* JVTTransitionOpenViewFullScreenPresentation.h */,
+				0D3A3AD3C905861DB2883BC421D352F3 /* JVTTransitionOpenViewFullScreenPresentation.m */,
+				D5C882EC40750F9984BD4BC2491B398E /* JVTWorker.h */,
+				25400869F310CE22D430A3761487B290 /* JVTWorker.m */,
+				1988B4D2F9DDAFEF2218F4A73B453092 /* LLSimpleCamera.h */,
+				4495AFC01CDECC607D8850762EA623C3 /* LLSimpleCamera.m */,
+				5F63AF7A005588CD8CBD449098BFCD20 /* metamacros.h */,
+				2452D3F205540158D5F43AF78AF89794 /* UIBlockButton.h */,
+				5BA7B9E60942C219CBD4112C97D38873 /* UIBlockButton.m */,
+				234999E6934ED4A78CC8E2AC5B012556 /* UIImage+FixOrientation.h */,
+				009ADF1F98DB3A661BF2D0E3E35D8ABD /* UIImage+FixOrientation.m */,
+				A1727013BE1A1D663267BE62E502653E /* UIImagePickerController+Block.h */,
+				3308A9BBBB183B77B48AA5B332E26462 /* UIImagePickerController+Block.m */,
+				99C92E12CDE91320AAB2259F62A38760 /* Support Files */,
+			);
+			name = ImageFilesPicker;
+			path = ImageFilesPicker;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B30A4F4B3477766F9309BB86EC2042F3 /* Pods */,
+				FFB04DC1FD69EC47F9552C06C1B4E692 /* Products */,
+				24963BE842962D1BD9C45B509E5441EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99C92E12CDE91320AAB2259F62A38760 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E37D94FCF34F240AB7ACD465EC5C8AD /* ImageFilesPicker.modulemap */,
+				A2E91F20CEF408181CB58B3E784938C8 /* ImageFilesPicker.xcconfig */,
+				0AAA34F2721DEE5BF492DA885A40DEC5 /* ImageFilesPicker-dummy.m */,
+				1435E99660A19672D3987B62044BA165 /* ImageFilesPicker-prefix.pch */,
+				D7D20C604EDB5BD139AD33AA6951E971 /* ImageFilesPicker-umbrella.h */,
+				8CBBD5ABF6C06A6F7BBC0B1BD991F821 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ImageFilesPicker";
+			sourceTree = "<group>";
+		};
+		B30A4F4B3477766F9309BB86EC2042F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31445EB2E1D6CCE58B5183C23A61A199 /* ImageFilesPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E208A9E9EB2538FF220086A391323C0D /* Pods-VizTest */ = {
+			isa = PBXGroup;
+			children = (
+				C10BCF3BD814B607B0B946D1CCADA416 /* Info.plist */,
+				F66D7DAFBD1B2C8B019E6F66D003BA47 /* Pods-VizTest.modulemap */,
+				7DDB1B497E83ABC6BB356C14AB7A8B3A /* Pods-VizTest-acknowledgements.markdown */,
+				F8DE98A2442CA05E7E974CF35B024EF6 /* Pods-VizTest-acknowledgements.plist */,
+				501478BB66C9C545A337F3AF877B45CC /* Pods-VizTest-dummy.m */,
+				A48B158FE1191B552D2A708EAF14E6D7 /* Pods-VizTest-frameworks.sh */,
+				EFED2B4FA249AC9183FD19E51BCAE64A /* Pods-VizTest-resources.sh */,
+				DA07C5857C44B78F18AD40FF7BC1DBD3 /* Pods-VizTest-umbrella.h */,
+				C26609A6DEA4DA302D3161D832DEBFE5 /* Pods-VizTest.debug.xcconfig */,
+				B8244218FAE46DD0304DF7FF7F1B9CBF /* Pods-VizTest.release.xcconfig */,
+			);
+			name = "Pods-VizTest";
+			path = "Target Support Files/Pods-VizTest";
+			sourceTree = "<group>";
+		};
+		FFB04DC1FD69EC47F9552C06C1B4E692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8347259B81315A57D3C6A8ECBA3CDBF3 /* ImageFilesPicker.framework */,
+				ABECA647597D0B7C3F82C6BAC4405F70 /* Pods_VizTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4448CDB9ACD985784E0873B28AD115D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8FD22C43F4E30B022E107F3E0C11FE /* EXTScope.h in Headers */,
+				71930B86EA4CBAFEEFC3B67A45BAB31D /* ImageFilesPicker-umbrella.h in Headers */,
+				A42B36EE5F4B5C3814C5B827077470AD /* JVTActionSheetAction.h in Headers */,
+				0090A9547D711FE4DBEF04635342B777 /* JVTActionSheetView.h in Headers */,
+				AC71EAD326A650DEA3A953AF0401EE9F /* JVTCameraAccesebility.h in Headers */,
+				454746470059E7733F0070CC8AC5F6A5 /* JVTCameraViewPreviewVC.h in Headers */,
+				16ACA26182C504D529EE7FB38A9A309E /* JVTImageFilePicker.h in Headers */,
+				BFC6D51AB1340FEAE773379F35A7BBC4 /* JVTImagePreviewVC.h in Headers */,
+				FB66060C581FF0EB474DEF87B60599CD /* JVTRecentImagesCollectionViewCell.h in Headers */,
+				2BF8FB41E916A406BA337D26EF407CC9 /* JVTRecentImagesProvider.h in Headers */,
+				103385F359FC70CDB61D2DD31D33EA5B /* JVTRecentImagesVideoCollectionViewCell.h in Headers */,
+				2758728FBC89C9FA131DEB6FC524D8A9 /* JVTRecetImagesCollection.h in Headers */,
+				EA16B865C29FB9DB384CBC8C4B08DAD6 /* JVTTransitionOpenImageFullScreenDelegate.h in Headers */,
+				48C7A54D96A2A6297C18EF33F5212887 /* JVTTransitionOpenImageFullScreenDismiss.h in Headers */,
+				13280876E704326BAFDF2B14D05D7066 /* JVTTransitionOpenImageFullScreenPresentation.h in Headers */,
+				F251725F7B2F3378ED85AE1DE8846A68 /* JVTTransitionOpenViewFullScreenDelegate.h in Headers */,
+				F57AB4E275233C430EBC28653B48BB5C /* JVTTransitionOpenViewFullScreenDismiss.h in Headers */,
+				FEB817F31D09DB94AAC15D1C4201661E /* JVTTransitionOpenViewFullScreenPresentation.h in Headers */,
+				BD0E04F0D54E8197152C3040DD192779 /* JVTWorker.h in Headers */,
+				315E9E2FD13157E22D8A1B820517A44C /* LLSimpleCamera.h in Headers */,
+				79DCF63EF98995F93E9F3CBAE2BC276A /* metamacros.h in Headers */,
+				EF6BA9C84782EE96D01C60D91474DC93 /* UIBlockButton.h in Headers */,
+				F1497DF6A76FBF3A506703A6AB6C771E /* UIImage+FixOrientation.h in Headers */,
+				D650A2F0ED4F0F89E354BE513C548960 /* UIImagePickerController+Block.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8687F89E1C1B5148F8B9D5C03163B40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BF305F99694A989DDDB80DDB4FED4B /* Pods-VizTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64A265E6827149B93644BE122B0330A8 /* Pods-VizTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2176B7AB68D1437E58633C216539DFBD /* Build configuration list for PBXNativeTarget "Pods-VizTest" */;
+			buildPhases = (
+				29A4E9ECB867B0617499BE84A2FAD82E /* Sources */,
+				674E740B0B295E4CDE8A04CA0C710882 /* Frameworks */,
+				E8687F89E1C1B5148F8B9D5C03163B40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3A4BE6243473C0035AAB5E4E6D1638 /* PBXTargetDependency */,
+			);
+			name = "Pods-VizTest";
+			productName = "Pods-VizTest";
+			productReference = ABECA647597D0B7C3F82C6BAC4405F70 /* Pods_VizTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5B418B875016426329CD3DBFD922B18 /* ImageFilesPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88F22D4B9FB610CFB0ADE405D7584C9 /* Build configuration list for PBXNativeTarget "ImageFilesPicker" */;
+			buildPhases = (
+				23185FC497D34CCDBC15CFF1BD4D3161 /* Sources */,
+				9BFC3457295C9B0290AFFC162EBB8759 /* Frameworks */,
+				4448CDB9ACD985784E0873B28AD115D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageFilesPicker;
+			productName = ImageFilesPicker;
+			productReference = 8347259B81315A57D3C6A8ECBA3CDBF3 /* ImageFilesPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FFB04DC1FD69EC47F9552C06C1B4E692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B418B875016426329CD3DBFD922B18 /* ImageFilesPicker */,
+				64A265E6827149B93644BE122B0330A8 /* Pods-VizTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23185FC497D34CCDBC15CFF1BD4D3161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE9D634123B9B83AAA1C90327EE8043 /* background.jpg in Sources */,
+				DF6D0AF086268B33EF2942BDA1F5B99E /* EXTScope.m in Sources */,
+				C2FE1DF0348C45F202BBC174B7BBBCA5 /* ImageFilesPicker-dummy.m in Sources */,
+				C972B542322BDA0CBA8738D5E340F207 /* JVTActionSheetAction.m in Sources */,
+				41A95384A1FCCE27586575DE3FACB620 /* JVTActionSheetView.m in Sources */,
+				D68D1840B95C74E3BA98ED227364ACE9 /* JVTCameraAccesebility.m in Sources */,
+				C6CAFDAF0B6C171F04A98147965A69FE /* JVTCameraViewPreviewVC.m in Sources */,
+				237091A2437808DD5315B40890FA13F6 /* JVTImageFilePicker.m in Sources */,
+				0BF4C57276FF5AA89D5DC8E75DC3FF83 /* JVTImagePreviewVC.m in Sources */,
+				686385F48D92AF213ACAC1D9B439CDFC /* JVTRecentImagesCollectionViewCell.m in Sources */,
+				47887F5721DDCFDFF979F5D1AD1D25D1 /* JVTRecentImagesProvider.m in Sources */,
+				8A6DEB4F080B53D668509F65D53CB23C /* JVTRecentImagesVideoCollectionViewCell.m in Sources */,
+				615197D1F7E31AFBA20FD766A09CEC08 /* JVTRecetImagesCollection.m in Sources */,
+				50F45112A1A151615AE918C90AC0A110 /* JVTTransitionOpenImageFullScreenDelegate.m in Sources */,
+				8CBA93B20DEFEB2C03B70FAD07958C71 /* JVTTransitionOpenImageFullScreenDismiss.m in Sources */,
+				0C00EB68A40790EA9F40E87502793CF4 /* JVTTransitionOpenImageFullScreenPresentation.m in Sources */,
+				9020D2A07F74097B4BA04DBFA584861D /* JVTTransitionOpenViewFullScreenDelegate.m in Sources */,
+				E14A678D490C94E267969CF628686BAC /* JVTTransitionOpenViewFullScreenDismiss.m in Sources */,
+				4069F6295B2585278F8F4A26414C3C91 /* JVTTransitionOpenViewFullScreenPresentation.m in Sources */,
+				B5AA76F98F7D0DD5E3DC785A65838625 /* JVTWorker.m in Sources */,
+				2072D39DE9E6330CD4BAB4BB95689949 /* LLSimpleCamera.m in Sources */,
+				9B3CA131C29FA634534EB90C6587DE26 /* UIBlockButton.m in Sources */,
+				011837D0ACC1D1A04369DD539536B9D0 /* UIImage+FixOrientation.m in Sources */,
+				9926A1B40A6C4B1E13F8309C2AC33CFF /* UIImagePickerController+Block.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A4E9ECB867B0617499BE84A2FAD82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F62444DE36EC712218972CB56748F4D /* Pods-VizTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A3A4BE6243473C0035AAB5E4E6D1638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImageFilesPicker;
+			target = F5B418B875016426329CD3DBFD922B18 /* ImageFilesPicker */;
+			targetProxy = 572DA9553454FCB46248670D249D435A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3689957E0025D075A2C0993927F9FE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		488A756BF29614764387EC53CB0B8A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E91F20CEF408181CB58B3E784938C8 /* ImageFilesPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageFilesPicker/ImageFilesPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageFilesPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageFilesPicker/ImageFilesPicker.modulemap";
+				PRODUCT_NAME = ImageFilesPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7861B9484938BA6AAD64C84435CB9714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26609A6DEA4DA302D3161D832DEBFE5 /* Pods-VizTest.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VizTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VizTest/Pods-VizTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VizTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F07FBFED8954DA349660D98EFA31E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8244218FAE46DD0304DF7FF7F1B9CBF /* Pods-VizTest.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VizTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VizTest/Pods-VizTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VizTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EF75A78F3706B3FBDB2ACD6ADC6C172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E91F20CEF408181CB58B3E784938C8 /* ImageFilesPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageFilesPicker/ImageFilesPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageFilesPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageFilesPicker/ImageFilesPicker.modulemap";
+				PRODUCT_NAME = ImageFilesPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F582AD13A9DE7F131B91568E61E9D1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2176B7AB68D1437E58633C216539DFBD /* Build configuration list for PBXNativeTarget "Pods-VizTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7861B9484938BA6AAD64C84435CB9714 /* Debug */,
+				7F07FBFED8954DA349660D98EFA31E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3689957E0025D075A2C0993927F9FE71 /* Debug */,
+				F582AD13A9DE7F131B91568E61E9D1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88F22D4B9FB610CFB0ADE405D7584C9 /* Build configuration list for PBXNativeTarget "ImageFilesPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EF75A78F3706B3FBDB2ACD6ADC6C172 /* Debug */,
+				488A756BF29614764387EC53CB0B8A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

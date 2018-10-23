@@ -13,9 +13,11 @@
 		8A0D1EC9217F49B800B757B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0D1EC8217F49B800B757B7 /* Assets.xcassets */; };
 		8A0D1ECC217F49B800B757B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0D1ECA217F49B800B757B7 /* LaunchScreen.storyboard */; };
 		8A0D1ECF217F49B800B757B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D1ECE217F49B800B757B7 /* main.m */; };
+		97D8F83A4547E091DE57D58D /* Pods_VizTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432D1C83FE52A535CC99A57B /* Pods_VizTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		432D1C83FE52A535CC99A57B /* Pods_VizTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VizTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0D1EBC217F49B600B757B7 /* VizTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VizTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0D1EBF217F49B600B757B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A0D1EC0217F49B600B757B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		8A0D1ECB217F49B800B757B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A0D1ECD217F49B800B757B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A0D1ECE217F49B800B757B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC622CCEF519754EB03EDB1E /* Pods-VizTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VizTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VizTest/Pods-VizTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B7ECEBE704F4C99DABAB2DD9 /* Pods-VizTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VizTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-VizTest/Pods-VizTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D8F83A4547E091DE57D58D /* Pods_VizTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61CC8CEF48358BDD103CB4CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC622CCEF519754EB03EDB1E /* Pods-VizTest.debug.xcconfig */,
+				B7ECEBE704F4C99DABAB2DD9 /* Pods-VizTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8A0D1EB3217F49B600B757B7 = {
 			isa = PBXGroup;
 			children = (
 				8A0D1EBE217F49B600B757B7 /* VizTest */,
 				8A0D1EBD217F49B600B757B7 /* Products */,
+				61CC8CEF48358BDD103CB4CE /* Pods */,
+				DDEC9A93DBE4EF21D7F6F814 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +87,14 @@
 			path = VizTest;
 			sourceTree = "<group>";
 		};
+		DDEC9A93DBE4EF21D7F6F814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432D1C83FE52A535CC99A57B /* Pods_VizTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A0D1ED2217F49B800B757B7 /* Build configuration list for PBXNativeTarget "VizTest" */;
 			buildPhases = (
+				8E09B01005B1BA021855308E /* [CP] Check Pods Manifest.lock */,
 				8A0D1EB8217F49B600B757B7 /* Sources */,
 				8A0D1EB9217F49B600B757B7 /* Frameworks */,
 				8A0D1EBA217F49B600B757B7 /* Resources */,
+				198F7961D62560AE17FD105D /* [CP] Embed Pods Frameworks */,
+				396BC28C982335E4261C6AE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		198F7961D62560AE17FD105D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VizTest/Pods-VizTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImageFilesPicker/ImageFilesPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageFilesPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VizTest/Pods-VizTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		396BC28C982335E4261C6AE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VizTest/Pods-VizTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E09B01005B1BA021855308E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VizTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A0D1EB8217F49B600B757B7 /* Sources */ = {
@@ -283,15 +364,13 @@
 		};
 		8A0D1ED3217F49B800B757B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC622CCEF519754EB03EDB1E /* Pods-VizTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PH85M24H5K;
 				INFOPLIST_FILE = VizTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MC.VizTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,15 +379,13 @@
 		};
 		8A0D1ED4217F49B800B757B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7ECEBE704F4C99DABAB2DD9 /* Pods-VizTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PH85M24H5K;
 				INFOPLIST_FILE = VizTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MC.VizTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
