@@ -21,7 +21,7 @@ Notice it runs on port http://127.0.0.1:5000/ (This is the one iOS app simulator
 ```
 /iOS/VizTest
 ```
-5. open VizTest.xcworkspace
+5. Open VizTest.xcworkspace
 
-6. run app, you are good to go!
+6. Run app, you are good to go!
 
