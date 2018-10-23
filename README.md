@@ -14,7 +14,7 @@
 ```
 python server.py
 ```
-Notice it run's on port http://127.0.0.1:5000/ (This is the one iOS app simulator is going to use).
+Notice it runs on port http://127.0.0.1:5000/ (This is the one iOS app simulator is going to use).
 
 4. Navigate to
 
