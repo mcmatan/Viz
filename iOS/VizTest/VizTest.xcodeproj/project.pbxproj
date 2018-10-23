@@ -13,6 +13,11 @@
 		8A0D1EC9217F49B800B757B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0D1EC8217F49B800B757B7 /* Assets.xcassets */; };
 		8A0D1ECC217F49B800B757B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0D1ECA217F49B800B757B7 /* LaunchScreen.storyboard */; };
 		8A0D1ECF217F49B800B757B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D1ECE217F49B800B757B7 /* main.m */; };
+		8A0D1EDE217F50F100B757B7 /* FacesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D1EDD217F50F100B757B7 /* FacesService.m */; };
+		8A0D1EE0217F598F00B757B7 /* Family2-Lady1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0D1EDF217F598F00B757B7 /* Family2-Lady1.png */; };
+		8A0D1EE4217F61C200B757B7 /* FaceDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D1EE3217F61C200B757B7 /* FaceDetails.m */; };
+		8A0D1EE7217F61FD00B757B7 /* FaceRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D1EE6217F61FD00B757B7 /* FaceRectangle.m */; };
+		8A0D1EEA217F69AA00B757B7 /* ImagePresentorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D1EE9217F69AA00B757B7 /* ImagePresentorViewController.m */; };
 		97D8F83A4547E091DE57D58D /* Pods_VizTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432D1C83FE52A535CC99A57B /* Pods_VizTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +33,15 @@
 		8A0D1ECB217F49B800B757B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A0D1ECD217F49B800B757B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A0D1ECE217F49B800B757B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A0D1EDC217F50F100B757B7 /* FacesService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacesService.h; sourceTree = "<group>"; };
+		8A0D1EDD217F50F100B757B7 /* FacesService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacesService.m; sourceTree = "<group>"; };
+		8A0D1EDF217F598F00B757B7 /* Family2-Lady1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Family2-Lady1.png"; path = "../../../images/Family2-Lady1.png"; sourceTree = "<group>"; };
+		8A0D1EE2217F61C200B757B7 /* FaceDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceDetails.h; sourceTree = "<group>"; };
+		8A0D1EE3217F61C200B757B7 /* FaceDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceDetails.m; sourceTree = "<group>"; };
+		8A0D1EE5217F61FD00B757B7 /* FaceRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceRectangle.h; sourceTree = "<group>"; };
+		8A0D1EE6217F61FD00B757B7 /* FaceRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceRectangle.m; sourceTree = "<group>"; };
+		8A0D1EE8217F69AA00B757B7 /* ImagePresentorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePresentorViewController.h; sourceTree = "<group>"; };
+		8A0D1EE9217F69AA00B757B7 /* ImagePresentorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePresentorViewController.m; sourceTree = "<group>"; };
 		AC622CCEF519754EB03EDB1E /* Pods-VizTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VizTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VizTest/Pods-VizTest.debug.xcconfig"; sourceTree = "<group>"; };
 		B7ECEBE704F4C99DABAB2DD9 /* Pods-VizTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VizTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-VizTest/Pods-VizTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,17 +88,74 @@
 		8A0D1EBE217F49B600B757B7 /* VizTest */ = {
 			isa = PBXGroup;
 			children = (
-				8A0D1EBF217F49B600B757B7 /* AppDelegate.h */,
-				8A0D1EC0217F49B600B757B7 /* AppDelegate.m */,
-				8A0D1EC2217F49B600B757B7 /* ViewController.h */,
-				8A0D1EC3217F49B600B757B7 /* ViewController.m */,
-				8A0D1EC5217F49B600B757B7 /* Main.storyboard */,
+				8A0D1EE1217F61AA00B757B7 /* Entities */,
+				8A0D1ED7217F4FD700B757B7 /* App */,
+				8A0D1ED6217F4FB400B757B7 /* Services */,
+				8A0D1ED5217F4FAF00B757B7 /* UI */,
 				8A0D1EC8217F49B800B757B7 /* Assets.xcassets */,
-				8A0D1ECA217F49B800B757B7 /* LaunchScreen.storyboard */,
 				8A0D1ECD217F49B800B757B7 /* Info.plist */,
-				8A0D1ECE217F49B800B757B7 /* main.m */,
+				8A0D1EDF217F598F00B757B7 /* Family2-Lady1.png */,
 			);
 			path = VizTest;
+			sourceTree = "<group>";
+		};
+		8A0D1ED5217F4FAF00B757B7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8A0D1ED9217F4FFC00B757B7 /* Storyboards */,
+				8A0D1ED8217F4FEB00B757B7 /* ViewControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8A0D1ED6217F4FB400B757B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8A0D1EDC217F50F100B757B7 /* FacesService.h */,
+				8A0D1EDD217F50F100B757B7 /* FacesService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8A0D1ED7217F4FD700B757B7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8A0D1EBF217F49B600B757B7 /* AppDelegate.h */,
+				8A0D1EC0217F49B600B757B7 /* AppDelegate.m */,
+				8A0D1ECE217F49B800B757B7 /* main.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8A0D1ED8217F4FEB00B757B7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A0D1EC2217F49B600B757B7 /* ViewController.h */,
+				8A0D1EC3217F49B600B757B7 /* ViewController.m */,
+				8A0D1EE8217F69AA00B757B7 /* ImagePresentorViewController.h */,
+				8A0D1EE9217F69AA00B757B7 /* ImagePresentorViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8A0D1ED9217F4FFC00B757B7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8A0D1ECA217F49B800B757B7 /* LaunchScreen.storyboard */,
+				8A0D1EC5217F49B600B757B7 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8A0D1EE1217F61AA00B757B7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8A0D1EE2217F61C200B757B7 /* FaceDetails.h */,
+				8A0D1EE3217F61C200B757B7 /* FaceDetails.m */,
+				8A0D1EE5217F61FD00B757B7 /* FaceRectangle.h */,
+				8A0D1EE6217F61FD00B757B7 /* FaceRectangle.m */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		DDEC9A93DBE4EF21D7F6F814 /* Frameworks */ = {
@@ -155,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0D1EE0217F598F00B757B7 /* Family2-Lady1.png in Resources */,
 				8A0D1ECC217F49B800B757B7 /* LaunchScreen.storyboard in Resources */,
 				8A0D1EC9217F49B800B757B7 /* Assets.xcassets in Resources */,
 				8A0D1EC7217F49B600B757B7 /* Main.storyboard in Resources */,
@@ -171,10 +243,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-VizTest/Pods-VizTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageFilesPicker/ImageFilesPicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageFilesPicker.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0D1EE7217F61FD00B757B7 /* FaceRectangle.m in Sources */,
+				8A0D1EE4217F61C200B757B7 /* FaceDetails.m in Sources */,
+				8A0D1EDE217F50F100B757B7 /* FacesService.m in Sources */,
+				8A0D1EEA217F69AA00B757B7 /* ImagePresentorViewController.m in Sources */,
 				8A0D1EC4217F49B600B757B7 /* ViewController.m in Sources */,
 				8A0D1ECF217F49B800B757B7 /* main.m in Sources */,
 				8A0D1EC1217F49B600B757B7 /* AppDelegate.m in Sources */,
@@ -370,7 +448,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PH85M24H5K;
 				INFOPLIST_FILE = VizTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = MC.VizTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +466,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PH85M24H5K;
 				INFOPLIST_FILE = VizTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = MC.VizTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
