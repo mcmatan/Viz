@@ -55,6 +55,7 @@
     UIImageView *imageView = [[UIImageView alloc] initWithImage:cropedImage];
     [self.view addSubview:imageView];
     
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.translatesAutoresizingMaskIntoConstraints = false;
     [[imageView.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor] setActive:YES];
     [[imageView.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor] setActive:YES];
