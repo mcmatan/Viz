@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['POST'])
 def parse_request():
-    data = request.get_data()  # empty in some cases
+    data = request.get_data() 
     responseJson = jsonify(getFaceDetails(data))
     return responseJson
 
