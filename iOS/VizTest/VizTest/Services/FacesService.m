@@ -21,7 +21,9 @@
 - (void)sendImage: (UIImage *) image returnCallback: (FaceServiceCallback) callback {
     self.callback = callback;
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        NSData *imageData = UIImagePNGRepresentation(image);
+        //NSData *imageData = UIImagePNGRepresentation(image);
+        NSData *imageData = UIImageJPEGRepresentation(image, 0.3);
+
         NSString *postLength = [NSString stringWithFormat:@"%lu", (unsigned long)[imageData length]];
         
         // Init the URLRequest
@@ -41,6 +43,11 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+    
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+    
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
